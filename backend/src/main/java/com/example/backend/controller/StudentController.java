@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/students")
-@CrossOrigin(origins = "https://student-management-system-beryl-five.vercel.app")
+@CrossOrigin(origins = "*")
 public class StudentController {
 
     @Autowired

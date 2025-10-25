@@ -10,7 +10,7 @@ public class CorsConfig implements WebMvcConfigurer {
     @Override
     public void addCorsMappings(CorsRegistry registry) {
         registry.addMapping("/api/**") // Apply to all your API endpoints
-                .allowedOrigins("https://student-management-system-beryl-five.vercel.app") // Your Vite dev port
+                .allowedOrigins("http://localhost:5182") // Your Vite dev port
                 .allowedMethods("GET", "POST", "PUT", "DELETE", "OPTIONS")
                 .allowedHeaders("*")
                 .allowCredentials(false);
