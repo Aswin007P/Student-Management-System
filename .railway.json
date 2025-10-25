@@ -1,0 +1,9 @@
+{
+  "build": {
+    "builder": "maven",
+    "args": ["-f", "backend/pom.xml"]
+  },
+  "run": {
+    "command": "java -jar backend/target/student-management-system-*.jar"
+  }
+}
