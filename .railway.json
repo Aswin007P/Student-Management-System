@@ -4,6 +4,6 @@
     "args": ["-f", "backend/pom.xml"]
   },
   "run": {
-    "command": "java -jar backend/target/student-management-system-*.jar"
+    "command": "java -jar backend/target/*.jar"
   }
 }
