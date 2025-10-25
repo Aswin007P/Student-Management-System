@@ -11,7 +11,7 @@ import java.util.List;
 
 @RestController
 @RequestMapping("/api/events")
-@CrossOrigin(origins = "*")
+@CrossOrigin(origins = "https://student-management-system-beryl-five.vercel.app")
 public class EventController {
 
     @Autowired
